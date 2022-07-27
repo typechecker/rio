@@ -1,0 +1,13 @@
+packages: rio rio-orphans
+
+write-ghc-environment-files: always
+
+package rio
+  ghc-options:
+    -fwrite-ide-info
+    -hiedir=../.hie
+
+package rio-orphans
+  ghc-options:
+    -fwrite-ide-info
+    -hiedir=../.hie

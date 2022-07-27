@@ -2,3 +2,7 @@
 tarballs/
 .stack-work/
 *.cabal
+dist-newstyle
+.ghc.environment.*
+**/.hie/
+**/stan.html
